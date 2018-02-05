@@ -13,14 +13,14 @@ namespace Fisher.Bookstore.Controllers
         [Route("Products/Index")]
         public IActionResult Products()
         {
-            return Content ("Products page");
+            return View();
         }
 
         [Route("Services")]
         [Route("Services/Index")]
         public IActionResult Services()
         {
-            return Content ("products page");
+            return View();
         }
 
     }
